@@ -7,7 +7,10 @@
 
 ### Security
 - vamos adicionar a spring security ao arquivo pom.xml
-- necessario fazer login, a senha esta no terminal
+- necessario fazer login, a senha vai estar no terminal
   - login: user
   - password: {terminal}
 - para criar um novo usuario, incluimos nas application.properties
+  - spring.security.user.name=marcelogalli
+  - spring.security.user.password=m1432654425
+  - spring.security.user.roles=admin,devops
