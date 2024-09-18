@@ -14,3 +14,8 @@
   - spring.security.user.name=marcelogalli
   - spring.security.user.password=m1432654425
   - spring.security.user.roles=admin,devops
+
+### Actuator
+- usado para demonstrar a saude do projeto
+- gera 3 links de acessos, que podem ser usados pelo kubernets
+- 
