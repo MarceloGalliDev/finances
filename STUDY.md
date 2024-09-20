@@ -18,4 +18,12 @@
 ### Actuator
 - usado para demonstrar a saude do projeto
 - gera 3 links de acessos, que podem ser usados pelo kubernets
-- 
+
+### Decorator de Responsabilidades
+Diferença entre @Component, @Service, @Repository, e @Controller
+Todas essas anotações fazem parte da família de Component Scanning no Spring, o que significa que elas registram automaticamente as classes como beans no Spring Context. A diferença está na semântica e no propósito de uso:
+
+@Component: Uso genérico, marca uma classe como componente gerenciado pelo Spring.
+@Service: Semântica específica para classes que contêm a lógica de negócios.
+@Repository: Usado para a camada de persistência, além de poder incluir tratamento de exceções relacionadas ao banco de dados.
+@Controller: Utilizado na camada de apresentação para controlar e mapear as requisições HTTP (típico em aplicações web).
