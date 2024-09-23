@@ -22,8 +22,8 @@ Todas essas anotações fazem parte da família de Component Scanning no Spring,
 @Repository: Usado para a camada de persistência, além de poder incluir tratamento de exceções relacionadas ao banco de dados.
 @Controller: Utilizado na camada de apresentação para controlar e mapear as requisições HTTP (típico em aplicações web).
 @RestController: Utilizado na camada de apresentação para controlar e mapear as requisições HTTP (típico em aplicações web) que retorna um JSON geralmente.
-@Configuration
-@Beans
+@Configuration: Indica como uma fonte the Beans.
+@Beans: Indica que o objeto de retorno deve ser considerado como outro Bean qualquer.
 
 @Autowired: usado para injetar dependencias automaticamente
 
@@ -61,3 +61,11 @@ Todas essas anotações fazem parte da família de Component Scanning no Spring,
 > services
 > repositorys
 > models
+
+### Beans Scopes
+- Singleton (default)
+- Prototype
+- Request (web)
+- Session (web)
+- Application (web)
+- WebSocket (web)

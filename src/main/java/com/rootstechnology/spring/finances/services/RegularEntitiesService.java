@@ -10,26 +10,18 @@ import com.rootstechnology.spring.finances.repository.EntitiesRepository;
 // podemos usar o @Primary ou um @Qualifier
 // @Primary
 @Service
-public class RegularEntitiesService implements EntitiesService {
-
-    EntitiesRepository entitiesRepository;
-
-    public RegularEntitiesService(EntitiesRepository entRep) {
-        this.entitiesRepository = entRep;
-    }
+public class RegularEntitiesService implements EntitiesRepository {
 
     @Override
     public Entity getById(Long id) {
-        return new Entity(id, "Amazon");
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getById'");
     }
 
     @Override
     public List<Entity> getAll() {
-        return List.of(
-            new Entity(1L, "Amazon"),
-            new Entity(2L, "BestBuy"),
-            new Entity(3L, "Submarino")
-        );
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAll'");
     }
 
 }

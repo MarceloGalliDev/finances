@@ -6,6 +6,7 @@ import com.rootstechnology.spring.finances.models.Entity;
 
 public interface EntitiesRepository {
 
-    Entity getById(Long id);
+        Entity getById(Long id);
     List<Entity> getAll();
+
 }
