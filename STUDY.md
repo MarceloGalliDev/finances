@@ -69,3 +69,10 @@ Todas essas anotações fazem parte da família de Component Scanning no Spring,
 - Session (web)
 - Application (web)
 - WebSocket (web)
+
+### Context
+- Acender a Beans
+- Escolha de mensagens segundo o i18n
+- uso do environment
+- carregamento de recursos
+- publicação e captura de eventos
